@@ -1,0 +1,12 @@
+! Copy/paste Ctrl+Shift+c/v
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard:
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+! Removes iso mode
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+! Removes scrollbar
+URxvt.scrollBar: false
+! Selfexplanatory
+URxvt.cursorUnderline: 1
+! Fonts
+URxvt.font: xft:ttf-anonymous-pro:style=Regular:size=12
